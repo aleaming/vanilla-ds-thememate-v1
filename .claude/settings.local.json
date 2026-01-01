@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip:*)",
+      "Bash(rm:*)",
+      "Bash(tree:*)",
+      "Bash(chmod:*)",
+      "Bash(./.loki/scripts/bootstrap.sh:*)",
+      "Bash(command -v:*)",
+      "Skill(loki-mode)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(test:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm build:*)",
+      "Bash(pnpm --filter @brand/tokens build:*)",
+      "Bash(pnpm --filter @brand/components add:*)",
+      "Bash(pnpm --filter @brand/components test --run)",
+      "Bash(pnpm vitest run:*)",
+      "Bash(wc:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm --filter @brand/components test:*)",
+      "Bash(npm test:*)",
+      "Bash(pnpm vitest:*)",
+      "Bash(npx vitest:*)",
+      "Bash(pnpm --filter @brand/components build:*)",
+      "Bash(pnpm test:*)",
+      "Bash(pkill:*)",
+      "Bash(gzip:*)",
+      "Bash(npm run build:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}

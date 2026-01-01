@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnpm-debug.log
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Loki state (keep structure, ignore runtime state)
+.loki/state/agents/*
+.loki/state/locks/*
+.loki/queue/in-progress.json
+.loki/queue/completed.json
+.loki/queue/failed.json
+.loki/queue/dead-letter.json
+.loki/logs/agents/*
+.loki/artifacts/backups/*
+
+# Changesets
+.changeset/*.md
+!.changeset/README.md
+!.changeset/config.json

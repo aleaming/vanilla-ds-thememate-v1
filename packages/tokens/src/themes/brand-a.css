@@ -1,0 +1,76 @@
+/* brand-a.css - Brand A Semantic Token Mappings */
+/* Per PRD Section 5.4 - Layer 2: Branded Touchpoints */
+
+@layer brand {
+  [data-theme="brand-a"],
+  :root {
+    /* Primary Colors */
+    --color-primary: var(--primitive-blue-700, #1d4ed8);
+    --color-primary-hover: var(--primitive-blue-800, #1e40af);
+    --color-on-primary: var(--primitive-white, #ffffff);
+
+    /* Secondary Colors */
+    --color-secondary: var(--primitive-gray-700, #374151);
+    --color-secondary-hover: var(--primitive-gray-800, #1f2937);
+    --color-on-secondary: var(--primitive-white, #ffffff);
+
+    /* Accent Colors */
+    --color-accent: var(--primitive-blue-500, #3b82f6);
+    --color-accent-hover: var(--primitive-blue-600, #2563eb);
+
+    /* Surface Colors */
+    --color-surface: var(--primitive-white, #ffffff);
+    --color-surface-variant: var(--primitive-gray-50, #f9fafb);
+    --color-on-surface: var(--primitive-gray-900, #111827);
+    --color-on-surface-variant: var(--primitive-gray-600, #4b5563);
+
+    /* Background Colors */
+    --color-background: var(--primitive-white, #ffffff);
+    --color-on-background: var(--primitive-gray-900, #111827);
+
+    /* Border Colors */
+    --color-border: var(--primitive-gray-300, #d1d5db);
+    --color-border-hover: var(--primitive-gray-400, #9ca3af);
+
+    /* State Colors */
+    --color-success: var(--primitive-green-600, #16a34a);
+    --color-success-light: var(--primitive-green-50, #f0fdf4);
+    --color-on-success: var(--primitive-white, #ffffff);
+
+    --color-warning: var(--primitive-yellow-500, #eab308);
+    --color-warning-light: var(--primitive-yellow-50, #fefce8);
+    --color-on-warning: var(--primitive-gray-900, #111827);
+
+    --color-error: var(--primitive-red-600, #dc2626);
+    --color-error-light: var(--primitive-red-50, #fef2f2);
+    --color-on-error: var(--primitive-white, #ffffff);
+
+    --color-info: var(--primitive-blue-600, #2563eb);
+    --color-info-light: var(--primitive-blue-50, #eff6ff);
+    --color-on-info: var(--primitive-white, #ffffff);
+
+    /* Focus Colors */
+    --color-focus: var(--primitive-blue-600, #2563eb);
+    --color-focus-ring: var(--primitive-blue-200, #bfdbfe);
+
+    /* Typography */
+    --font-heading: var(--font-serif, ui-serif, Georgia, serif);
+    --font-body: var(--font-sans, ui-sans-serif, system-ui, sans-serif);
+    --font-mono: var(--font-mono, ui-monospace, monospace);
+
+    /* Shape */
+    --radius-button: var(--radius-md, 0.375rem);
+    --radius-input: var(--radius-sm, 0.125rem);
+    --radius-card: var(--radius-lg, 0.5rem);
+    --radius-dialog: var(--radius-xl, 0.75rem);
+
+    /* Motion */
+    --motion-duration: var(--duration-200, 200ms);
+    --motion-easing: var(--ease-out, cubic-bezier(0, 0, 0.2, 1));
+
+    /* Shadows */
+    --shadow-button: var(--shadow-sm, 0 1px 2px 0 rgb(0 0 0 / 0.05));
+    --shadow-card: var(--shadow-md, 0 4px 6px -1px rgb(0 0 0 / 0.1));
+    --shadow-dialog: var(--shadow-xl, 0 20px 25px -5px rgb(0 0 0 / 0.1));
+  }
+}

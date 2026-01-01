@@ -1,0 +1,36 @@
+{
+  "version": "2.9.1",
+  "startupId": "1C62EE30-66EF-414A-BA61-D48BB337F949",
+  "phase": "deployment-ready",
+  "subPhase": "tests-verified-docs-generated",
+  "prdPath": "./docs/requirements.md",
+  "prdHash": "26c232f175eef3acef366783bb6e1c92",
+  "prdLastModified": "2025-12-31T20:00:00Z",
+  "agents": {
+    "active": [],
+    "idle": [],
+    "failed": [],
+    "totalSpawned": 40,
+    "totalTerminated": 40
+  },
+  "circuitBreakers": {},
+  "metrics": {
+    "tasksCompleted": 39,
+    "tasksFailed": 0,
+    "tasksInDeadLetter": 0,
+    "deployments": 0,
+    "rollbacks": 0,
+    "incidentsDetected": 0,
+    "incidentsResolved": 0,
+    "revenue": 0,
+    "customers": 0,
+    "agentComputeMinutes": 0
+  },
+  "lastCheckpoint": "2025-12-31T21:50:00Z",
+  "lastBackup": "",
+  "lastLogRotation": "",
+  "currentRelease": "1.0.0-beta",
+  "systemHealth": "green",
+  "pausedAt": null,
+  "pauseReason": null
+}

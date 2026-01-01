@@ -1,0 +1,4 @@
+/* layers.css - CSS Cascade Layers Definition */
+/* Per PRD Section 5.2 - Ensures predictable specificity */
+
+@layer primitives, brand, component, overrides;

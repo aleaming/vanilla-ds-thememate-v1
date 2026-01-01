@@ -1,0 +1,6 @@
+/* index.css - Design Tokens Entry Point */
+/* Import order matters: layers first, then primitives, then brand themes */
+
+@import './layers.css';
+@import './primitives.css';
+@import './themes/brand-a.css';

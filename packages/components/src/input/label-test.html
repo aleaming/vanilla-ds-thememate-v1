@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brand Input Label Test</title>
+  <style>
+    body {
+      font-family: system-ui;
+      padding: 2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .example {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      background: #f9fafb;
+      border-radius: 0.5rem;
+    }
+    .example h2 {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Brand Input Label Association Test</h1>
+
+  <div class="example">
+    <h2>Example 1: Input with label</h2>
+    <brand-input label="Email Address" type="email" placeholder="Enter your email"></brand-input>
+  </div>
+
+  <div class="example">
+    <h2>Example 2: Required input with label</h2>
+    <brand-input label="Password" type="password" required placeholder="Enter your password"></brand-input>
+  </div>
+
+  <div class="example">
+    <h2>Example 3: Input without label (hidden)</h2>
+    <brand-input type="text" placeholder="No label attribute"></brand-input>
+  </div>
+
+  <div class="example">
+    <h2>Example 4: Number input with label</h2>
+    <brand-input label="Age" type="number" min="0" max="120" placeholder="Enter your age"></brand-input>
+  </div>
+
+  <script type="module">
+    // Import the component (adjust path as needed)
+    import { BrandInput } from './brand-input.js';
+
+    console.log('Brand Input component loaded');
+
+    // Test programmatic label update
+    setTimeout(() => {
+      const firstInput = document.querySelector('brand-input');
+      console.log('Updating first input label...');
+      firstInput.setAttribute('label', 'Updated Email Address');
+    }, 2000);
+  </script>
+</body>
+</html>

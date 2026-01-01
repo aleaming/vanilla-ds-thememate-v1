@@ -1,0 +1,20 @@
+{
+  "name": "@brand/docs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@brand/components": "workspace:*",
+    "@brand/tokens": "workspace:*",
+    "markdown-it": "^14.0.0",
+    "prismjs": "^1.29.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.11"
+  }
+}
