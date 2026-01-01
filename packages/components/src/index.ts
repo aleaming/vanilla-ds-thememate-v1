@@ -3,6 +3,7 @@
  *
  * Phase 1: Core Atoms
  * Phase 2: Composed Components
+ * Phase 3: Complex Components
  * Zero runtime dependencies - Pure browser APIs
  */
 
@@ -31,6 +32,11 @@ import './accordion';
 import './tabs';
 import './dropdown';
 import './modal';
+
+// Phase 3: Import complex components
+import './autocomplete';
+import './datepicker';
+import './table';
 
 // Re-export component classes for programmatic usage
 // Phase 1
@@ -70,3 +76,12 @@ export {
   BrandMenuDivider
 } from './dropdown';
 export { BrandModal } from './modal';
+
+// Phase 3
+export {
+  BrandAutocomplete,
+  BrandAutocompleteOption,
+  BrandAutocompleteGroup
+} from './autocomplete';
+export { BrandDatepicker } from './datepicker';
+export { BrandTable } from './table';
